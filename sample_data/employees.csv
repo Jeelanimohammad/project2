@@ -1,0 +1,11 @@
+employee_id,name,department,job_role,email,phone,joining_date
+EMP001,Aarav Sharma,Engineering,Cloud Data Engineer,aarav.sharma@example.com,9876543210,2023-01-15
+EMP002,Priya Patel,Engineering,Backend Developer,priya.patel@example.com,9876543211,2023-03-01
+EMP003,Rohan Verma,Data Science,Data Analyst,rohan.verma@example.com,9876543212,2023-04-10
+EMP004,Sneha Reddy,Human Resources,HR Specialist,sneha.reddy@example.com,9876543213,2023-05-20
+EMP005,Vikram Singh,Finance,Financial Analyst,vikram.singh@example.com,9876543214,2023-06-18
+EMP006,Ananya Iyer,Marketing,Digital Marketer,ananya.iyer@example.com,9876543215,2023-08-01
+EMP007,Mohammed Jeelani,Engineering,Data Platform Engineer,jeelani.m@example.com,9876543216,2023-09-12
+EMP008,Kavita Nair,Quality Assurance,QA Automation Engineer,kavita.nair@example.com,9876543217,2023-11-05
+EMP009,Rahul Gupta,Operations,Operations Lead,rahul.gupta@example.com,9876543218,2024-01-10
+EMP010,Divya Joshi,Design,UI/UX Designer,divya.joshi@example.com,9876543219,2024-02-14
