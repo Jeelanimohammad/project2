@@ -1,6 +1,5 @@
-# 🎓 HCLTech / Berribot Interview Preparation Guide
-## Project: Employee Management & Attendance System
-**Target Role:** Cloud Data Engineer / Data Engineer
+# 🎓 Project Technical & Interview Preparation Guide
+## Employee Management & Attendance System
 
 ---
 
@@ -12,7 +11,7 @@
 > 
 > On the frontend, I developed an interactive web interface using **Streamlit** that features an executive KPI dashboard, employee profile management, daily attendance rosters, and dynamic search. Using **Pandas**, I automated attendance percentage calculations and department-level aggregations. 
 > 
-> As a Cloud Data Engineering aspirant, this project demonstrates my foundational mastery of relational data modeling, SQL queries, Python backend scripting, and end-to-end data processing."*
+> This project demonstrates my foundational mastery of relational data modeling, SQL queries, Python backend scripting, and end-to-end data processing."*
 
 ---
 
@@ -75,7 +74,7 @@ $$\text{Attendance Percentage (\%)} = \left(\frac{\text{Present Days}}{\text{Tot
 
 ---
 
-## 🎯 3. 20 Likely HCLTech / Berribot Interview Questions & Answers
+## 🎯 3. 20 Technical Project Questions & Answers
 
 ### Q1: Why did you choose SQLite instead of MySQL or PostgreSQL for this project?
 **Answer:** SQLite is embedded and serverless—it requires zero infrastructure setup or background daemon processes and stores the database in a single file. For a desktop/local data application, it makes the project self-contained, lightweight, and easy to run anywhere. In a cloud production environment, I would migrate this to cloud-managed PostgreSQL or Snowflake.
@@ -107,7 +106,7 @@ $$\text{Attendance Percentage (\%)} = \left(\frac{\text{Present Days}}{\text{Tot
 ### Q10: How does Streamlit handle UI re-rendering upon button click?
 **Answer:** Streamlit operates on an event-driven execution model. Any interaction (such as pressing a submit button or selecting a dropdown) triggers a rerun of the entire script from top to bottom with the updated widget state.
 
-### Q11: How would you scale this application to handle 500,000 employees in a Cloud Data Engineering environment?
+### Q11: How would you scale this application to handle 500,000 employees in a high-scale production environment?
 **Answer:**
 1. Replace SQLite with a distributed cloud database like **Amazon Aurora PostgreSQL** or **Azure SQL Database**.
 2. Partition the attendance table by year and month.

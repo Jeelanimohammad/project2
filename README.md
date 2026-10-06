@@ -1,6 +1,6 @@
 # 🏢 Employee Management & Attendance System
 
-A lightweight, production-style web application built with **Python**, **Streamlit**, **SQLite**, and **Pandas** to streamline employee records and daily attendance tracking. Designed specifically as a clean, modular portfolio project for entry-to-intermediate Data Science and Cloud Data Engineering interviews (e.g., HCLTech / Berribot).
+A lightweight, production-ready web application built with **Python**, **Streamlit**, **SQLite**, and **Pandas** to streamline employee records and daily attendance tracking. Designed with clean, modular architecture and full CRUD capabilities.
 
 ---
 
@@ -189,7 +189,7 @@ Employee-Management-Attendance-System/
 ├── attendance.py              # Streamlit UI logic for Attendance Tracking & Reports
 ├── requirements.txt           # Python dependency specifications
 ├── README.md                  # Comprehensive project documentation
-├── INTERVIEW_PREP.md          # 20 HCLTech interview Q&A + core technical explanations
+├── INTERVIEW_PREP.md          # Technical questions & answers + core concepts guide
 │
 ├── database/
 │   └── employee_management.db # SQLite relational database file
@@ -277,5 +277,4 @@ http://localhost:8501
 
 ## 👨‍💻 Author & Acknowledgements
 - **Author:** Mohammed Jeelani
-- **Target Role:** Cloud Data Engineer (HCLTech / Berribot)
 - Built with Python, Streamlit, SQLite, and Pandas.

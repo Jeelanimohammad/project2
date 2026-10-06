@@ -93,7 +93,7 @@ init_app()
 with st.sidebar:
     st.markdown("## 🏢 HR Portal")
     st.markdown("**Employee & Attendance System**")
-    st.caption("Cloud Data Engineering Portfolio Project")
+    st.caption("Portfolio Project")
     st.markdown("---")
 
     menu_option = st.radio(

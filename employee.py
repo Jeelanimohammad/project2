@@ -90,7 +90,7 @@ def render_employee_management():
                 emp_id = st.text_input("Employee ID *", placeholder="e.g. EMP011")
                 name = st.text_input("Full Name *", placeholder="e.g. Jane Doe")
                 dept = st.selectbox("Department *", DEPARTMENTS)
-                job_role = st.text_input("Job Role *", placeholder="e.g. Cloud Data Engineer")
+                job_role = st.text_input("Job Role *", placeholder="e.g. Software Engineer")
             with col_b:
                 email = st.text_input("Email *", placeholder="e.g. jane.doe@example.com")
                 phone = st.text_input("Phone Number *", placeholder="e.g. 9876543210")
